@@ -1,0 +1,28 @@
+{
+  "name": "NotesApp",
+  "version": "0.0.1",
+  "description": "Notes application",
+  "scripts": {
+    "server": "babel-node server/app.js",
+    "webpack-devserver": "webpack-dev-server --debug --hot --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0"
+  },
+  "author": {
+    "name": "Valeria Kozhevnikova",
+    "email": "kozhevnikovavaleria91@gmail.com",
+    "url": "https://github.com/krambertech"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "babel": "*",
+    "babel-loader": "*",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
